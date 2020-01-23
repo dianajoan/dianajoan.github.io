@@ -169,12 +169,14 @@ header.masthead {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; } }
 
 .picself{
-  width:300px;
- height:300px;
-  float:right;
-background-image:url("https://i.ibb.co/W5bfThq/mepic.jpg");
+ width: 300px;
+ height: 300px;
+ border-style: 5px solid;
+ border-color: #fff;
+ float:right;
+ background-image:url("https://i.ibb.co/W5bfThq/mepic.jpg");
+ border-radius: 100%;
 }
-
 
 .service-heading {
   margin: 15px 0;
@@ -294,9 +296,11 @@ background-image:url("https://i.ibb.co/W5bfThq/mepic.jpg");
 
 section#contact {
   padding: 25px 0;
-  text-align: center; }
+  text-align: center;
+  background-color: #000; }
   section span.copyright {
     font-size: 90%;
+    color: #fff;
     line-height: 40px;
     text-transform: none;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
