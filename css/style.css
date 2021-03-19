@@ -171,11 +171,12 @@ header.masthead {
 .picself{
  width: 300px;
  height: 300px;
- border-style: 5px solid;
- border-color: #fff;
+ /*border-style: 5px solid;*/
+ /*border-color: #fff;*/
  float:right;
- background-image:url("https://i.ibb.co/W5bfThq/mepic.jpg");
- border-radius: 100%;
+ background-image:url("https://i.ibb.co/3vS6Jxp/Snapchat-1113427889.jpg");
+ background-size: 100%;
+ opacity: 0.6;
 }
 
 .service-heading {
